@@ -543,6 +543,16 @@ body {
   position: relative;
 }
 
+#floodpods::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--nature-green), transparent);
+}
+
 #floodpods h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 3.5rem;
@@ -573,16 +583,6 @@ body {
   margin: 0 auto 4rem;
   text-align: center;
   font-weight: 300;
-}
-
-#floodpods::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, var(--nature-green), transparent);
 }
 
 .pod-card {
