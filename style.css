@@ -575,6 +575,16 @@ body {
   font-weight: 300;
 }
 
+#floodpods::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--nature-green), transparent);
+}
+
 .pod-card {
   background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(59, 130, 246, 0.1));
   border: 1px solid rgba(255, 255, 255, 0.1);
