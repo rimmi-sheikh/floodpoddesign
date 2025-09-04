@@ -542,8 +542,9 @@ body {
   padding: 80px 20px;
   text-align: center;
   color: var(--text-color);
-  background: linear-gradient(135deg, rgba(34, 139, 34, 0.85), rgba(70, 130, 180, 0.85));
+  background: linear-gradient(135deg, rgba(32, 48, 82, 0.9), rgba(16, 176, 126, 0.9));
 }
+
 
 #floodpods::before {
   content: '';
